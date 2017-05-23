@@ -12,7 +12,11 @@
     <title>Index</title>
 </head>
 <body>
-    <div> 
+    <div>
+        <h1>Home Index</h1>
+        @Html.MvcSiteMap().Menu();
+        <hr />
+        @Html.MvcSiteMap().SiteMapPath(); 
     </div>
 </body>
 </html>
